@@ -1,6 +1,6 @@
 <h3>I'm articles views</h3>
 
-<%= form_for :article do |f| %>
+<%= form_for :article, url: articles_path do |f| %>
   <p>
     <%= f.label :title %><br>
     <%= f.text_field :title %>
