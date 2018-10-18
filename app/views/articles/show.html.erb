@@ -2,7 +2,12 @@
 <h3><%= @article.title %></h3>
 <p><%= @article.text %></p>
 <div>
-  
+  <h2>List of commentss.</h2>
+  <% @article.comments.each do |article| %>
+    <h3><%= article.author %></h3>
+    <p><%= article.body %></p>
+  <hr>
+<% end %>
 </div>
 <p>
 <%= form_for ([@article, @article.comments.build]) do |f| %>
