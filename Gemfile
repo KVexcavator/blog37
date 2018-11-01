@@ -56,5 +56,6 @@ gem "devise"
 group :development, :test do
   gem 'rspec-rails'
   gem "capybara","~> 2.13"
-
+  gem 'shoulda-matchers', '4.0.0.rc1'
+  gem 'rails-controller-testing' # If you are using Rails 5.x
 end
