@@ -51,3 +51,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # для авторицазии
 gem "devise"
+
+#test
+group :development, :test do
+  gem 'rspec-rails'
+  gem "capybara","~> 2.13"
+
+end
