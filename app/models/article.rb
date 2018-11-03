@@ -2,8 +2,8 @@ class Article < ApplicationRecord
 
   has_many :comments
 
-  validates :title, presence: true
-  validates :text, presence: true
+  validates :title, length: { in: 2..140}
+  validates :text, length: { in: 10..4000}
 
   
   def subject
