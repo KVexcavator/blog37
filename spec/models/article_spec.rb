@@ -11,4 +11,14 @@ RSpec.describe Article, type: :model do
     it { should validate_presence_of :text  }
   end
 
+  describe "#subject" do
+    it "returns the article title" do
+      #создаём объект article хитрым способом
+      # arrange & act
+      article=create(:article, title: "Bla Bla Bla")
+      #assert
+      expect(article.subject).to eq "Bla Bla Bla"
+    end
+  end
+
 end
