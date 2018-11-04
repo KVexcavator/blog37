@@ -9,8 +9,10 @@ require File.expand_path('../../config/environment', __FILE__)
 abort("The Rails environment is running in production mode!") if Rails.env.production?
 require 'rspec/rails'
 
+#подключение из папки support
 require 'support/factory_girl'
 require 'support/session_healper'
+require 'support/datebase_cleaner'
 
 
 Shoulda::Matchers.configure do |config|
