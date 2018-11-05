@@ -31,7 +31,21 @@
 
 en:
   hello: "Hello world"
+  thanks: 'Thanks!'
+  title: 'BLOG 37'
 
   contacts:
     contact_us: "Contact Us!"
+    create_thanks: 'Thanks!'
+  articles:
+    article_edit: 'Edit article'
+    article_new: 'New Article'
+    articles_list: 'List of articles:'
+    article_connents: 'Comments:'
+    article_send_comment: 'Send Comment'
+  home:
+    home_title: 'Home page'
+  pages:
+    page_about: 'About Us'
+    page_terms: 'Terms'
 

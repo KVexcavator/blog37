@@ -2,7 +2,7 @@
 <h3><%= @article.title %></h3>
 <p><%= @article.text %></p>
 <div>
-  <h2>Comments.</h2>
+  <h2><%= t('articles.article_connents') %></h2>
   <% @article.comments.each do |article| %>
     <h3><%= article.author %></h3>
     <p><%= article.body %></p>
@@ -20,7 +20,7 @@
     <%= f.text_area :body %>
   </p>
   <p>
-    <%= f.submit  "Send comment"%>
+    <%= f.submit  t('articles.article_send_comment')%>
   </p>
 <% end %>
 </p>
