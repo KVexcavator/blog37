@@ -37,9 +37,11 @@ en:
   contacts:
     contact_us: "Contact Us!"
     create_thanks: 'Thanks!'
+    send_contact: 'Send message'
   articles:
     article_edit: 'Edit article'
     article_new: 'New Article'
+    article_send_save_article: 'SAVE ARTICLE'
     articles_list: 'List of articles:'
     article_connents: 'Comments:'
     article_send_comment: 'Send Comment'
